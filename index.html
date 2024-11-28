@@ -22,19 +22,32 @@
             overflow: hidden;
         }
         header {
+            display: flex;
             background-color: #467fbd;
+            /* color: #ffffff;
+            text-align: center;
+            padding: 20px 10px; */
+            
+            /* justify-content: center; */
+            
+        }
+
+        .about {
+            margin-top: 5%;
+            margin-bottom: 7%;
+            margin-left: 7%;
             color: #ffffff;
             text-align: center;
             padding: 20px 10px;
         }
-        header h1 {
+        .about h1 {
             margin: 0;
             font-size: 1.8em;
         }
-        header p {
+        .about p {
             margin: 5px 0;
         }
-        header a {
+        .about a {
             color: #ffdd57;
             text-decoration: none;
         }
@@ -70,16 +83,27 @@
             font-size: 0.9em;
             color: #495057;
         }
+        img {
+            margin-top: 5%;
+            margin-bottom: 7%;
+            margin-left: 5%;
+            width: 20%;
+            height: 20%;
+            border-radius: 20%;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <header>
+            <img src="photo_2024-11-28_16-53-29.jpg">
+            <div class="about">
             <h1>Мохаммед Рами</h1>
             <p>Email: <a href="mailto:ramimak77@gmail.com">ramimak77@gmail.com</a></p>
             <p>GitHub: <a href="https://github.com/Rami30m">github.com/Rami30m</a></p>
             <p>Город: Алматы</p>
             <p>Желаемая должность: Веб-разработчик</p>
+        </div>
         </header>
 
         <section>
